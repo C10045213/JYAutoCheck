@@ -7,7 +7,11 @@
 ## 配置 .env 文件
 - 将在各大模型官网或者中转站申请到的 api_key 复制粘贴到对应的 “=” 之后
   - 目前只支持 Qwen、DeepSeek、Gemini、Openrouter 的部分模型
+  - 未申请的，请在 “=” 后留为1
 - 复制粘贴浏览器进程名与浏览器路径，以便脚本从9222端口启动浏览器
+  - 目前只支持Chromium内核的浏览器
+<img width="710" height="200" alt="c1019e7d-df6c-4279-ac0e-06c0ec26d7b8" src="https://github.com/user-attachments/assets/a2a13180-d051-4f49-94f5-faaa0b234fe1" />
+
 
 ---
 ### 一般流程（以单发审题为例）
